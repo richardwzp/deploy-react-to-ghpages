@@ -9,7 +9,7 @@ runs:
   steps: 
     - run : npm i --legacy-peer-deps
       shell: bash
-    - run : npm ci
+    - run : npm ci --legacy-peer-deps
       shell: bash
     - run : npm run build
       shell: bash

@@ -7,7 +7,7 @@ branding:
 runs: 
   using: 'composite'
   steps: 
-    - run : npm i
+    - run : npm i --legacy-peer-deps
       shell: bash
     - run : npm ci
       shell: bash
